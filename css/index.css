@@ -1,0 +1,88 @@
+body {
+    background-color: #f7f7f7;
+}
+
+#container {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+input, button {
+    padding: 10px;
+}
+
+input {
+    width: 600px;
+    height: 40px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+input[type=submit] {
+    width: 50px;
+    height: 40px;
+    border: 1px solid #000;
+    font-weight: 100;
+    font-size: 20px;
+    background-color: #000;
+    /* background-color: #026796; */
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+button {
+    width: 50px;
+    height: 40px;
+    border: 1px solid #000;
+    font-weight: 100;
+    font-size: 18px;
+    background-color: #000;
+    /* background-color: #026796; */
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+.tasks {
+    max-width: 1000px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tasks-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.task-checkbox {
+    width: 12px;
+    height: 12px;
+    font-size: 10px;
+    color: #000;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.tasks p {
+    width: 50%;
+    height: 100px;
+    font-weight: 100;
+    font-size: 20px;
+    color: black;
+    outline: none;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
